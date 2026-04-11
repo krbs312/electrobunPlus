@@ -2,7 +2,7 @@
 
 interface command {
 	type: string;
-	payload?: (param: unknown) => void;
+	payload?: (param: any) => void;
 }
 
 export class HHMessage_bun {
